@@ -3,5 +3,5 @@ Version=1.0
 Encoding=UTF-8
 Type=X-Thumbnailer
 Name=STL Thumbnailer
-MimeType=model/x.stl-ascii;model/x.stl-binary;application/sla;
+MimeType=model/x.stl-ascii;model/x.stl-binary;application/sla;model/stl;
 Exec=/opt/openscad-thumbnailers/stl2png.sh %i %o %s
