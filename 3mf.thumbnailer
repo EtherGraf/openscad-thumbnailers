@@ -3,5 +3,5 @@ Version=1.0
 Encoding=UTF-8
 Type=X-Thumbnailer
 Name=3MF Thumbnailer
-MimeType=model/3mf;
+MimeType=model/3mf;application/vnd.ms-3mfdocument;
 Exec=/opt/openscad-thumbnailers/stl2png.sh %i %o %s
