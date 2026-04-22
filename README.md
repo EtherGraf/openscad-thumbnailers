@@ -18,7 +18,7 @@ To install, open a terminal into this directory and execute `./install.sh`.
 and restart Nautilus or Thunar and then your .slvs will show up rendered in the preview.
 At least on debian you have to restart tumblerd too to reread the thumbnailer configuration.
 
-```
+```bash
 % pkill tumblerd
 % thunar -q & thunar
 ```
@@ -26,6 +26,13 @@ At least on debian you have to restart tumblerd too to reread the thumbnailer co
 
 ## Test
 
-```
+```bash
 % stl2png <absolute-path>/test/cube.slvs out.png 64
+```
+
+### Clear thumbnail cache
+
+If you need to clear the thumbnail cache.
+```bash
+% rm -rf ~/.cache/thumbnails/*
 ```
