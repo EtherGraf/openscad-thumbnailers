@@ -3,11 +3,22 @@
 ![](screenshot.png)
 
 
-## Requires:
+
 
 This project allows Thunar/Nautilus (but also Nemo, Caja and PCManFM) to show thumbnails for `.stl`, `.3mf` and `.scad` files.
 
-**Openscad, imagemagick and sudo are required**
+For a thumbniler for solvespace `.slvs` files have a look at https://github.com/EtherGraf/solvespace-thumbnailer
+
+## Requires:
+
+* Openscad,
+* imagemagick
+
+```bash
+% apt install openscad imagemagick
+```
+
+
 
 
 ## Install
