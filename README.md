@@ -5,7 +5,7 @@
 
 ## Requires:
 
-This project allows Nautilus (but also Nemo, Caja and PCManFM) to show thumbnails for `.stl` and `.scad` files.
+This project allows Thunar/Nautilus (but also Nemo, Caja and PCManFM) to show thumbnails for `.stl`, `.3mf` and `.scad` files.
 
 **Openscad, imagemagick and sudo are required**
 
